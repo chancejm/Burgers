@@ -1,0 +1,59 @@
+html{
+  background-image: url("https://pixabay.com/get/e83cb60929fd093ed1534705fb094f93e477e3d41eac104496f3c97ea3e9b5b9/burgers-1976198_1920.jpg");
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 10%;
+}
+body,
+.container{
+  width: 100%;
+}
+
+body,
+.jumbotron{
+  background: rgba(0, 0, 0, 0);
+}
+
+.create-form{
+  margin-left: 21%;
+  width: 152px;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.change-sleep{
+  font-size: 10px;
+  height: 50px;
+  width: 150px;
+}
+
+li{
+  margin: 2px 0px;
+  background: grey;
+  border: 2px solid darkgrey;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-danger{
+  height: 35px;
+  width: 90px;
+}
+
+h1,
+h2{
+  padding-bottom: 2px;
+  border-bottom: 2px solid black;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+p{
+  background: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  padding-bottom: 2px;
+  border-bottom: 2px solid black;
+}

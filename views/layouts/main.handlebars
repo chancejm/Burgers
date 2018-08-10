@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Burgers</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="/assets/js/burgers.js"></script>
+</head>
+<div class="container">
+
+	<body>
+		<div class="jumbotron jumbotron-fluid">
+			<div>
+				<h1 class="display-4">Burgers</h1>
+				<p class="lead">Order any Burger you can imagine, and I will make you that imaginary burger!
+					<br>Then you can DEVOUR it with the click of a button!
+					<br>Enjoy Your Fake Burger!</p>
+			</div>
+			<form class="create-form">
+
+				<div class="form-group">
+					<label for="order">Enter Order Here</label>
+					<br>
+					<input type="text" id="order" name="name">
+				</div>
+
+				<button class="btn btn-primary" type="submit">Order Burger</button>
+			</form>
+		</div>
+
+		<div>
+			<div class="row">
+
+				{{{ body }}}
+
+			</div>
+		</div>
+
+	</body>
+</div>
+
+</html>

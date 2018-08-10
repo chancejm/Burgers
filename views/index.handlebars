@@ -1,0 +1,22 @@
+<div class="col-sm-12 col-md-6 text-center">
+  <h2>Burgers Ordered</h2>
+
+<ol>
+  {{#each burgers}}
+    {{#unless burgerStatus}}
+      {{> devoured/devoured-state burgerState=true}}
+    {{/unless}}
+  {{/each}}
+</ol>
+</div>
+<div class="col-sm-12 col-md-6 text-center">
+  <h2>Burgers Devoured</h2>
+
+<ol>
+  {{#each burgers}}
+   {{#if burgerStatus}}
+      <li class="right">{{burgerName}}</li>
+    {{/if}}
+  {{/each}}
+</ol>
+</div>
