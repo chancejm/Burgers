@@ -1,5 +1,5 @@
 html{
-  background-image: url("https://pixabay.com/get/e83cb60929fd093ed1534705fb094f93e477e3d41eac104496f3c97ea3e9b5b9/burgers-1976198_1920.jpg");
+  background-image: url("/assets/images/burger.jpg");
   background-size: 100vw 100vh;
   background-attachment: fixed;
   background-color: black;
